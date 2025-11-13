@@ -1,20 +1,19 @@
 body{
     background-color: bisque;
 }
-
+*{
+    font-family: Young Serif;
+}
 .box{
-    height: 100%;
-    width: 500px;
+  
+    width: 650px;
     border: 3px solid white;
     
    text-align: center;
-    position :fixed;
+    position :absolute;
     border-radius: 15px;
     background-color: white;
     left:10%;
-    
-   
-    
 
 }
 h3{
@@ -23,12 +22,12 @@ h3{
     border: 2px solid black;
 }
 #image{
-    height: 200px;
-    width: 470px;
+    height: 250px;
+    width: 580px;
     position: relative;
     text-align: center;
     border-radius: 15px;
-    top: 10px;
+    top: 30px;
     text-align: center;
 }
 h1{
@@ -42,7 +41,7 @@ h1{
 .pink1{
     padding-left: 20px;
     border: 2px solid rgba(191, 169, 169, 0);
-    background-color: rgba(225, 179, 184, 0.245);
+    background-color: rgba(225, 179, 184, 0.092);
     text-align: left;
     border-radius: 15px;
     margin: 15px;
@@ -50,10 +49,58 @@ h1{
 }
 .ingredients{
     text-align: left;
-    border:none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.168);
+    margin-left: 20px;
+    margin-right: 20px;
+   
 
 }
-h2{
+.box h2{
+    padding-left: 15px;
+    text-align: left;
+    color:  hsl(14, 45%, 36%);
+
+}
+
+.box .instructions{
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.111);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box td{
+    
+   text-align: left;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.096);
     padding-left: 15px;
 }
+table{
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.box hr{
+    color: grey;
+    margin: 20px;
+}
+#last{
+    padding-bottom: 20px;
+}
+.box tr{
+    padding-bottom: 50px;
+}
+.box h4{
+    color:hsl(332, 51%, 32%) ;
+}
+td:nth-child(2){
+        color:hsl(14, 45%, 36%);
+        font-weight: bold;
+    }
 
+.title{
+    font-weight: bold;
+}
+.attribution{
+    text-align: center;
+}
